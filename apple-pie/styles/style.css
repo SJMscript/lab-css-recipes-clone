@@ -22,3 +22,41 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+header {
+  height: 750px;
+  background-image:url(../images/apple-pie.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  font-size: 65px;
+}
+
+#intro {
+  font-size: 22px;
+}
+
+.img-little {
+margin: 25px;
+margin-left: 18%;
+
+}
+
+section{
+  margin: 50px;
+  margin-left: 90px;
+}
+
+#ingredients ul{
+  list-style:"-";
+}
+
+ol > li::before {
+  content: counter(listcounter) ")";
+}
